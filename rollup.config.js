@@ -68,6 +68,9 @@ export default {
 			},
 			// 전처리 옵션을 지정합니다.
 			preprocess: sveltePreprocess({
+				scss: {
+					prependData: '@import "./src/scss/main.scss";'
+				},
 				postcss: {
 					plugins: [
 						require('autoprefixer')()

@@ -40,7 +40,7 @@
                 }}
                 placeholder="Enter a title for this card..."></textarea>
             <div class="actions">
-                <div class="btn" on:click={addList}>Add List</div>
+                <div class="btn success" on:click={addList}>Add List</div>
                 <div class="btn" on:click={offEditMode}>Cancel</div>
             </div>
         </div>
