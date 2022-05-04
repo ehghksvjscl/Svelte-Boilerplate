@@ -1,9 +1,4 @@
 <header>
-  <!-- <img
-    src="/images/urello_logo.svg"
-    alt="Trello"
-    class="logo" /> -->
-
     <div class="container">
       <div class="neon">Urello </div>
     </div>

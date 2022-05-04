@@ -2,12 +2,17 @@
   import { lists } from '~/store/store'
   import List from '~/components/List.svelte'
   import CreateList from '~/components/CreateList.svelte'
+
+  lists.add({
+      title: "test"
+  })
+  
 </script>
 
 <div class="list-container">
     <div class="lists">
         {#each $lists as list (list.id)}
-            <List />
+            <List {list}/>
         {/each}
     </div>
     <CreateList />
